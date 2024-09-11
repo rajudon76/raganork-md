@@ -48,8 +48,8 @@ module.exports = {
     DIS_PM: convertToBool(process.env.DIS_PM) || false,
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
-    READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || 'Raganork~a9e0cbcb58e6f7bc42f408d9f6ae7261:76463043566373626557383d').trim() || '',
+    READ_COMMAND: convertToBool(process.env.READ_COMMAND) || false,
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || 'Raganork~3e112e0b89dffc6cd990cdb02d2c4617:2b6a6530626c345542496f3d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '91
        '',
